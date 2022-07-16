@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Approval Predictions</title>
+<style>
+
+body{
+    background-color: rgb(185, 179, 179);
+}
+h1,p,form {
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+  }
+  
+</style>
+
+</head>
+<body>
+
+<h1>APPROVAL PREDICTION</h1>
+<p>UPLOAD YOUR CSV FILE</p>
+
+<form method="POST" action="{{url_for('predict')}}" enctype="multipart/form-data">
+    <input type="file" id="csv" name="filename">
+    <input type="submit",value="SUBMIT">
+</form>
+
+</body>
+</html>

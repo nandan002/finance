@@ -2,7 +2,7 @@
 
 ## Clone the repository
 
-  git clone <url>
+  git clone https://github.com/nandan002/finance.git
   
   cd finance/
   

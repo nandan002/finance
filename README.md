@@ -8,4 +8,5 @@
   
 ## Run the command 
   docker build --tag python-docker .
+  
   docker run <images>

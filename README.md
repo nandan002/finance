@@ -7,4 +7,5 @@
   cd finance/
   
 ## Run the command 
-  python3 route.py
+  docker build --tag python-docker .
+  docker run <images>
